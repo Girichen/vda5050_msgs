@@ -15,3 +15,8 @@ string resultDescription                          # Free-form text: description 
 
 string[] blockingTypes                            # Array of possible blocking types for defined action.
                                                     # Enum {'NONE', 'SOFT', 'HARD'}
+
+#Enums of blockingTypes
+string NONE=NONE
+string SOFT=SOFT
+string HARD=HARD
