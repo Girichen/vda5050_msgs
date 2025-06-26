@@ -47,6 +47,7 @@ add_message_files(
     MapUpdate.msg
     MaxArrayLens.msg
     MaxStringLens.msg
+    Network.msg
     Node.msg
     NodePosition.msg
     NodeState.msg
@@ -62,7 +63,9 @@ add_message_files(
     Timing.msg
     Trajectory.msg
     TypeSpecification.msg
+    VehicleConfig.msg
     Velocity.msg
+    VersionInfo.msg
     Visualization.msg
     WheelDefinition.msg
     Zone.msg

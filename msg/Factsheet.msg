@@ -24,4 +24,8 @@ vda5050_msgs/AgvGeometry agvGeometry                # Detailed definition of AGV
 
 vda5050_msgs/LoadSpecification loadSpecification    # Abstract specification of load capabilities
 
+vda5050_msgs/VehicleConfig vehicleConfig            #Summary of current software and hardware 
+                                                    #versions on the vehicle and optional network 
+                                                    #information.
+
 int32 localizationParameters                        # Detailed specification of localization

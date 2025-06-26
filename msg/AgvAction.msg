@@ -12,3 +12,6 @@ vda5050_msgs/ActionParameter[] actionParameters   # List of parameters
                                                   # If not defined, the action has no parameters 
 
 string resultDescription                          # Free-form text: description of the resultDescription. 
+
+string[] blockingTypes                            # Array of possible blocking types for defined action.
+                                                    # Enum {'NONE', 'SOFT', 'HARD'}
