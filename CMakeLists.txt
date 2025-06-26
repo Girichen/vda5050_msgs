@@ -23,6 +23,7 @@ add_message_files(
     BoundingBoxReference.msg
     Connection.msg
     ControlPoint.msg
+    Corridor.msg
     Edge.msg
     EdgeState.msg
     EdgeStates.msg
@@ -41,6 +42,7 @@ add_message_files(
     Loads.msg
     LoadSet.msg
     LoadSpecification.msg
+    Map.msg
     MapMetaData.msg
     MapUpdate.msg
     MaxArrayLens.msg

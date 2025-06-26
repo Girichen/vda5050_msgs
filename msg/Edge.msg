@@ -51,6 +51,8 @@ vda5050_msgs/Trajectory trajectory  # Trajectory JSON-object for this edge as a 
 float64 length                      # [m] Length of the path from startNode to endNode. Optional: This value is used
                                     # by lineguided AGVs to decrease their speed before reaching a stop position.
 
+vda5050_msgs/Corridor corridor
+
 vda5050_msgs/Action[] actions       # Array of actionIds to be executed on the edge. An action triggered by an edge will
                                     # only be active for the time that the AGV is traversing the edge which triggered
                                     # the action. When the AGV leaves the edge, the action will stop and the state

@@ -5,6 +5,8 @@ vda5050_msgs/ErrorReference[] errorReferences   # Array of references to identif
 
 string errorDescription                         # Error description.
 
+string errorHint                                # Hint on how to approach or solve the reported error.
+
 string errorLevel                               # Enum {WARNING, FATAL} 
                                                 # WARNING: AGV is ready to start (e.g. maintenance cycle expiration WARNING) 
                                                 # FATAL: AGV is not in running condition, user intervention required (e.g. laser scanner is contaminated)

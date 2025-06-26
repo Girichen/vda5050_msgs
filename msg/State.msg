@@ -12,6 +12,8 @@ string manufacturer                          # Manufacturer of the AGV
 string serialNumber                          # Serial Number of the AGV
 
 # CONTENTS
+vda5050_msgs/Map[] maps                 # Array of map-objects that are currently stored on the vehicle.
+
 string orderId                          # Unique order identification of the current order or the previous finished order. 
                                         # The orderId is kept until a new order is received. 
                                         # Empty string ("") if no previous orderId is available.
