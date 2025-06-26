@@ -28,6 +28,7 @@ add_message_files(
     EdgeState.msg
     EdgeStates.msg
     Envelope2d.msg
+    Envelope3d.msg
     Error.msg
     Errors.msg
     ErrorReference.msg

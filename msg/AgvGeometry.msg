@@ -2,4 +2,4 @@ vda5050_msgs/WheelDefinition[] wheelDefinitions     # List of wheels, containing
 
 vda5050_msgs/Envelope2d[] envelopes2d
 
-# TODO:  envelopes3d
+vda5050_msgs/Envelope3d[] envelopes3d
