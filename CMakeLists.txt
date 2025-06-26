@@ -27,6 +27,7 @@ add_message_files(
     Edge.msg
     EdgeState.msg
     EdgeStates.msg
+    Envelope2d.msg
     Error.msg
     Errors.msg
     ErrorReference.msg
@@ -55,6 +56,7 @@ add_message_files(
     OptionalParameter.msg
     Order.msg
     PhysicalParameters.msg
+    PolygonPoint.msg
     Position.msg
     ProtocolFeatures.msg
     ProtocolLimits.msg
