@@ -2,7 +2,7 @@
 
 string nodeId                                       # Unique node identification.
 
-int32 sequenceId                                    # sequenceId to discern multiple nodes with same nodeId.
+uint32 sequenceId                                    # sequenceId to discern multiple nodes with same nodeId.
 
 string nodeDescription                              # Additional information on the node
 

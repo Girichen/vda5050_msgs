@@ -5,7 +5,7 @@ float64 y                                         # [m] Y-position on the map in
 
 float64 theta                                     # [rad] The angular dimension
 
-float32 allowedDeviationXY                        # Indicates how exact an AGV has to drive over a node in order for it
+float64 allowedDeviationXY                        # Indicates how exact an AGV has to drive over a node in order for it
                                                   # to count as traversed.
                                                   #
                                                   # If = 0: no deviation is allowed (no deviation means within the
@@ -15,7 +15,7 @@ float32 allowedDeviationXY                        # Indicates how exact an AGV h
                                                   # within the deviation-radius, the node is considered to have been
                                                   # traversed.
 
-float32 allowedDeviationTheta                     # Range: [0 ... Pi]
+float64 allowedDeviationTheta                     # Range: [0 ... Pi]
                                                   # Indicates how big the deviation of theta angle can be.
                                                   # The lowest acceptable angle  is theta -allowedDevaitionTheta and
                                                   # the  highest acceptable angle is theta + allowedDeviationTheta
